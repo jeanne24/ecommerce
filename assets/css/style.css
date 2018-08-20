@@ -1,0 +1,309 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+html,body{
+	height: 100%;
+	width: 100%;
+}
+
+.bg-dark2{
+	background-color: #133046!important;
+}
+
+.container-fluid{
+	position: relative;
+	top: 60px;
+}
+
+.main{
+	width: 1200px!important;
+	position: relative;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	margin-left: auto!important;
+	margin-right: auto!important;
+}
+.hero {
+
+	background-image: url(../images/book_homepage.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 700px;
+	position: relative;
+	z-index: 1;
+	color: white;
+	text-align: center;
+}
+
+.hero:before{
+	content: "";
+	position: absolute;
+	background-color: rgba(0,0,0,.6);
+	height: 100%;
+	width: 100%;
+	z-index: 2;
+	left: 0px;
+}
+
+.hero h2 {
+	position: relative;
+	z-index: 3;
+	margin-top: 14%;
+
+}
+
+.hero h3 {
+ 	position: relative;
+ 	z-index: 4;
+	margin-top: 5%;
+}
+
+.hero input, .search input {
+ 	position: relative;
+ 	z-index: 5;
+ 	font-size: 24px;
+ 	width: 400px;
+}
+
+.hero select, .search select {
+ 	position: relative;
+	z-index: 6;
+	font-size: 20px;
+	padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+.hero button, .search button {
+ 	position: relative;
+ 	z-index: 7;
+ 	position: relative;
+ 	left: -5px;
+ 	top: 3px;
+    padding-top: 1px;
+    width: 60px;
+}
+
+.section2 {
+ 	background-color: white;
+ 	height: 100%;
+ 	width: 1000px;
+ 	text-align: center;
+ 	margin-left: auto!important;
+ 	margin-right: auto!important;
+}
+
+.inner-section2{
+}
+
+
+.feature {
+ 	height: 225px;
+ 	border: 1px solid black;
+}
+
+.feature1 {
+ 	height: 175px;
+ 	border: 1px solid black;
+}
+.feature2 {
+ 	height: 125px;
+ 	border: 1px solid black;
+}
+
+.section3 {
+	padding-top: 24px;
+	color: white;
+	margin-left: auto!important;
+	margin-right: auto!important;
+}
+
+.section3 > .sub-section {
+	padding-left: 100px;
+	margin-bottom: 35px;
+	margin-top: 35px;
+}
+
+.body p{
+	margin: 0;
+	padding: 0;
+}
+
+.part2{
+	color: white;
+	margin-left: auto!important;
+	margin-right: auto!important;
+}
+.part2 .sub-section {
+	padding-left: 100px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+#login_reg{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-right: 25px;
+	width: 430px!important;
+}
+#login-form{
+	margin-right: auto;
+	margin-left: auto;
+	width: 380px;
+	text-align: right;
+}
+#login-form td{
+	padding-left: 10px;
+}
+
+#login-form label{
+	line-height: 40px;
+}
+
+#login-form button{
+	width: 150px;
+	margin-top: 15px;
+}
+
+.login-section{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.red{
+	color: red;
+}
+
+.navbar{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 80px!important;
+}
+
+.nav1{
+	width: 100%;
+	height: 80px!important;
+	position: fixed;
+	z-index: 10000000;
+	top: 0;
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+	left: 15px;
+	bottom: -300px;
+}
+
+.footer{
+	width: 1200px;
+}
+
+.footer-bg {
+	width: 100%;
+}
+
+.dark-grey {
+	background-color: #2F2E33;	
+}
+
+.navy-blue {
+	background-color: #3A5199;
+}
+
+.card-group {
+	margin-top: 20px;
+}
+
+.filters{
+	background-color: 
+}
+
+
+.home-section1 {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.book-title{
+	margin: 0;
+	padding: 0;
+}
+
+.rating {
+	margin:0;
+	padding: 0;
+}
+
+.book-sale{
+	max-height: 550px;
+}
+
+
+.rating > i {
+	color: yellow;
+}
+
+.featured-books div{
+	padding: 0!important;
+	margin: 0!important;
+}
+
+.featured-book{
+	position: relative;
+	z-index: 21;
+	border-radius: 0px;
+	/*height: 200px;*/
+}
+
+
+.featured-book .textarea {
+	position: absolute;
+	background-color: rgba(0,0,0,.6);
+	color: white;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+	z-index: 22;
+	opacity: 0;
+	top: 0;
+	-webkit-transition: opacity 500ms;
+  	-moz-transition: opacity 500ms;
+  	-o-transition: opacity 500ms;
+  	transition: opacity 500ms;
+
+}
+
+.textcontent{
+	position: absolute;
+	text-align: center;
+	left: 24px;
+    top: 50px;
+}
+
+.textarea .star{
+	margin-top: 50px;
+}
+
+.featured-book:hover .textarea{
+	opacity: 1;
+}
+
+.disclaimer{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.book_details .details{
+	margin-top: 16px;
+}
+
+.book_details .side-detail {
+	border: 1px solid #C4C5C7;
+	padding: 20px;
+}
